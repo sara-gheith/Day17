@@ -1,3 +1,5 @@
+const _ = require('lodash');
+
 var users = [
     { firstName: "John", lastName: "Doe", age: 24, gender: "male" },
     { firstName: "Jane", lastName: "Doe", age: 5, gender: "female" },
