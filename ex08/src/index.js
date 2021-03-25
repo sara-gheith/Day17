@@ -15,15 +15,17 @@ function getUsers() {
 }
 
 function findUser(lastName, gender) {
-    try {
 
+    try {
+        var user = _.user(users);
+        var iFindUser = firstName + " " + lastName + " is " + age + ", " + gender;
     } catch (error) {
-        return
-        console.log();
+        return iFindUser;
+        console.log(user);
     }
 }
 
 getUsers();
-findUser();
+findUser(users);
 
 module.exports = findUser;
