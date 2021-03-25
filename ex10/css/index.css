@@ -1,5 +1,8 @@
 body {
     background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
 }
 
 #left {
@@ -10,6 +13,75 @@ body {
 #wrapper {
     margin-left: auto;
     margin-right: auto;
+}
+
+img {
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+form {
+    margin-top: 80px;
+}
+
+label {
+    font-size: 15px;
+    color: white;
+    margin-left: 60px;
+}
+
+input {
+    background: transparent;
+    border-color: gray;
+    width: 350px;
+    height: 30px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    margin-left: 60px;
+}
+
+button {
+    background-color:rgb(124, 175, 243);
+    border: none;
+    width: 360px;
+    height: 35px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+#links {
+    text-align: center;
+    margin: 40px 90px 40px 0;
+}
+
+#links > a:link {
+    color: rgb(124, 175, 243);
+}
+
+#links > a:visited {
+    color: rgb(124, 175, 243);
+}
+
+.bar {
+    width: 67%;
+    margin-bottom: 40px;
+    margin-left: 50px;
+}
+
+#main-footer {
+    margin-right: 80px;
+    margin-top: 150px;
+    text-align: center;
+}
+
+footer > div > a:link {
+    color: white;
+}
+
+footer > div > a:visited {
+    color: white;
 }
 
 #right {
@@ -26,12 +98,17 @@ body {
 
 .secondary-btn {
     background-color: gray;
-    font-size: 20px;
+    font-size: 15px;
     color: white;
-    padding: 10px 150px;
+    padding: 10px 130px;
     margin-left: 50px;
 }
 
 a:link {
     text-decoration: none;
 }
+
+#showcase-content > a {
+    margin-left: 300px;
+}
+
