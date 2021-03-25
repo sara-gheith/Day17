@@ -1,0 +1,37 @@
+body {
+    background-image: url(https://image.ibb.co/cO9Lxq/login-bg.jpg);
+}
+
+#left {
+    float: left;
+    width: 35%;
+}
+
+#wrapper {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#right {
+    float: left;
+    width: 65%;
+}
+
+.showcase-text {
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    padding-top: 300px;
+}
+
+.secondary-btn {
+    background-color: gray;
+    font-size: 20px;
+    color: white;
+    padding: 10px 150px;
+    margin-left: 50px;
+}
+
+a:link {
+    text-decoration: none;
+}
